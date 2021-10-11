@@ -1,13 +1,45 @@
-.container {
+html {
     display: flex;
+    justify-content: center;
+}
+
+body {
+
     
-
-
-
-
 }
 
 
 
+.container {
+    display: flex;
+    height: 10px;
+    width: 10px; 
+    margin: 0px;
+    flex-wrap: wrap;
+    transition: all 1.5s ease;
+}
 
-* {border: solid red;}
+.container2 {
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    align-content: center;
+    background-color: rgb(182, 182, 182);
+}
+
+
+.cell {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin: none;
+    padding: none;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(255, 252, 248);
+}
+
+
+
+/* {border: 1px solid red;}
